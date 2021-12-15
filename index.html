@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vaibhav rathi website</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact us</a></li>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search">
+            </div>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+
+
+<body class="body">
+    <h2 class="p">Hi, Myself Vaibhav Rathi This Is My Website</h2>
+
+
+    <h4 class="p1">This is My Assignment Of html</h4>
+    <hr>
+
+    <h3>If you Clear the interview round, congratulations on getting selected!!!</h3>
+
+    <ul class="p3" type=circle>
+        <li>Fill The Registration Form</li>
+        <li>Attend an online entrance test</li>
+        <li>Make a Portfolio Website as a project</li>
+        <li>Clear the interview round</li>
+    </ul>
+
+    <h3>If Not,</h3>
+
+    <ul class="p4" type=square>
+        <li>Attend an online 2 months Bootcamp Session</li>
+        <li>build a Project again(of better quality, of course</li>
+        <li>Pass the interview and get along with us!</li>
+
+    </ul>
+    <hr>
+
+    <h4 class="p5">This is my table using html</h4>
+
+    <table class="p6" border="1px">
+        <tr align="center">
+            <th>Subject</th>
+            <th>Theory</th>
+            <th>Practical</th>
+            <th>Total Marks</th>
+            <th>Grades</th>
+        </tr>
+        <tr align="center">
+            <td>English</td>
+            <td>92</td>
+            <td>-</td>
+            <td>92</td>
+            <td>A1</td>
+        </tr>
+        <tr align="center">
+            <td>Mathematics</td>
+            <td>69</td>
+            <td>20</td>
+            <td>89</td>
+            <td>A2</td>
+        </tr>
+        <tr align="center">
+            <td>Physics</td>
+            <td>68</td>
+            <td>18</td>
+            <td>86</td>
+            <td>A2</td>
+        </tr>
+        <tr align="center">
+            <td>Chemistry</td>
+            <td>70</td>
+            <td>18</td>
+            <td>88</td>
+            <td>A2</td>
+        </tr>
+        <tr align="center">
+            <td>Computer Science</td>
+            <td>75</td>
+            <td>20</td>
+            <td>95</td>
+            <td>A1</td>
+        </tr>
+        <tr align="center">
+            <td>Result</td>
+            <td colspan="4">PASS</td>
+        </tr>
+
+    </table><br>
+
+    <hr>
+
+    <h1 class="c1">Personal Information</h1>
+
+    <form>
+        <div class="p14">
+            <label class="p7" for="Name" required>Name*:</label>
+            <input class="p8" type="text" id="Name" value="Entre You Name" onfocus="this.value=''"></div>
+        <div class="p13" style="width:250px;height:150px;border:1px solid rgb(146, 20, 20);">
+            Gender*:<br>
+            <input type="radio" name="Gender" id="Male" value="Male">
+            <label class="p9" for="Male">Male</label><br>
+            <input type="radio" name="Gender" id="Female" value="Female">
+            <label class="p10" for="Female">Female</label><br>
+            <input type="radio" name="Gender" id="Others" value="Others">
+            <label class="p11" for="Others">Others</label><br>
+
+        </div>
+
+        <div class="p12">
+
+            Address*:<textarea name="myText" cols="37" rows="10"
+                onfocus="this.value=''">entre you full address</textarea>
+
+        </div>
+
+        <div class="p15"><label for="myEmail">Email*:</label>
+
+            &nbsp;<input type="email" name="Email" id="myEmail" value="xyz@example.com" onfocus="this.value=''">
+
+        </div><br>
+
+        <div class="p16">
+            <label for="myPincode">Pin-Code*</label>
+            &nbsp;<input type="text" name='Pin-COde' id="myPincode" maxlength="6">
+
+
+        </div><br>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="sumbit" type="submit"
+                value="Submit Now">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="reset" type="reset" value="Reset Now">
+
+        </div><br>
+        <hr>
+    </form>
+
+    <h3 class="c2">Payment information</h3>
+
+
+
+
+    <form>
+        <div class="p17">
+            <label for="card type">Card-Type*</label>
+            <select name="mycard" id="card type">
+                &nbsp;<option value="">- select card type-</option>
+                <option value="cre">credit card</option>
+                <option value="deb">debit card</option>
+            </select>
+        </div><br>
+        <div class="p18">
+            <label for="myCard No.">Card Number :*</label>
+            &nbsp;<input type="text" id="myCard No." value="1111-2222-3333-4444" maxlength="16" onfocus="this.value=''">
+        </div><br>
+        <div class="p19">
+            <label for="myexpirationdate">Expiration Date*</label>
+            &nbsp;<input type="date" name="date" id="myexpirationdate">
+        </div><br>
+        <div class="p20"><label for="myCVV">CVV*</label>
+            <input type="password" name="CVV" id="myCVV" value="123" onfocus="this.value=''" maxlength="3">
+        </div> <br><br>
+        <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Pay Now">
+        </div><br>
+    </form>
+    <hr>
+    <hr>
+    <iframe src="https://www.youtube.com/embed/wWyvmMWaJAU" width="800" height="400" frameborder="8"></iframe>
+    <iframe src="https://www.youtube.com/embed/zwWROMFDBu0" width="800" height="400" frameborder="8"></iframe>
+    <iframe src="https://www.youtube.com/embed/BEplBcBEDAU" width="800" height="400" frameborder="8"></iframe>
+    <iframe src="https://www.youtube.com/embed/QaBrc5Yd5hc" width="800" height="400" frameborder="8"></iframe>
+    <hr>
+    <hr>
+    <a href="https://www.codingninjas.com/">CN WEBSITE</a>
+    <hr>
+    <hr>
+    <div class="p22">
+        <h1>New Year Countdown</h1>
+        <div class="countdown">
+            <div class="time">
+                <h2 id="days"></h2>
+                <small>Days</small>
+            </div>
+            <div class="time">
+                <h2 id="hours"></h2>
+                <small>Hours</small>
+            </div>
+            <div class="time">
+                <h2 id="minutes"></h2>
+                <small>Minutes</small>
+            </div>
+            <div class="time">
+                <h2 id="seconds"></h2>
+                <small>Seconds</small>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

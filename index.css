@@ -1,0 +1,372 @@
+* {
+    font-family: 'Ubuntu', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.body {
+    background: rgb(236, 205, 205);
+}
+
+.navbar {
+    background-color: rgba(243, 115, 115, 0.753);
+    border-radius: 30px;
+
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgba(168, 39, 0, 0.836);
+}
+
+.navbar li a:hover {
+    color: rgb(0, 0, 0)
+}
+
+.search {
+    float: right;
+    color: rgba(4, 33, 77, 0.863);
+    padding: 12px 75px;
+}
+
+.navbar input {
+    border: 2px solid rgba(211, 3, 3, 0.979);
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+
+.p {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 30px auto;
+    float: none;
+    width: 35%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.p1 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 21px auto;
+    float: none;
+    width: 25%;
+    border-radius: 8px;
+    text-align: center
+}
+
+.p3 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 23px 12px;
+    width: 25%;
+    border-radius: 8px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+.p4 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 23px 12px;
+    width: 25%;
+    border-radius: 8px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+.p5 {
+    color: rgb(228, 48, 48);
+    background-color: rgb(250, 226, 205);
+    margin: 30px auto;
+    float: none;
+    width: 35%;
+    border-radius: 80px;
+    text-align: center;
+    padding-top: 6px;
+    border: 3px solid rgb(245, 102, 19);
+}
+
+.p6 {
+    color: rgb(228, 48, 48);
+    background-color: rgb(250, 226, 205);
+    margin: 23px 50px;
+    width: 90%;
+    border-radius: 8px;
+    padding: 0%;
+    float: none;
+}
+
+.p7:hover {
+    color: rgb(0, 0, 0);
+}
+
+.p7 {
+    color: rgb(248, 11, 11);
+    float: left;
+}
+
+.p8 {
+    color: rgb(228, 48, 48);
+    background-color: rgb(243, 216, 194);
+}
+
+.c1 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 30px auto;
+    float: none;
+    width: 35%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.c2 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 30px auto;
+    float: none;
+    width: 35%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.p9 {
+    color: rgb(248, 9, 9);
+    float: left;
+}
+
+.p9:hover {
+    color: rgb(0, 0, 0);
+}
+
+.p10 {
+    color: rgb(248, 9, 9);
+    float: left;
+}
+
+.p10:hover {
+    color: rgb(0, 0, 0);
+}
+
+.p11 {
+    color: rgb(248, 9, 9);
+    float: left;
+}
+
+.p11:hover {
+    color: rgb(0, 0, 0);
+}
+
+.p12 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 23px 12px;
+    width: 25%;
+    border-radius: 8px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+.p13 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 23px 12px;
+    width: 25%;
+    border-radius: 8px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+.p14 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 23px 12px;
+    width: 25%;
+    border-radius: 8px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+.p12 textarea {
+    color: rgb(228, 48, 48);
+    background-color: rgb(243, 216, 194);
+}
+
+.p15 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 23px 12px;
+    width: 25%;
+    border-radius: 8px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+.p15 input {
+    color: rgb(228, 48, 48);
+}
+
+.p15 label:hover {
+    color: rgb(5, 0, 0);
+}
+
+.p16 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 23px 12px;
+    width: 25%;
+    border-radius: 8px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+.p16 input {
+    color: rgb(228, 48, 48);
+}
+
+.p16 label:hover {
+    color: rgb(5, 0, 0);
+}
+
+.p17 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 23px 12px;
+    width: 25%;
+    border-radius: 8px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+.p17 input {
+    color: rgb(228, 48, 48);
+}
+
+.p17 label:hover {
+    color: rgb(5, 0, 0);
+}
+
+.p18 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 23px 12px;
+    width: 25%;
+    border-radius: 8px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+.p18 input {
+    color: rgb(228, 48, 48);
+}
+
+.p18 label:hover {
+    color: rgb(5, 0, 0);
+}
+
+.p19 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 23px 12px;
+    width: 25%;
+    border-radius: 8px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+.p19 input {
+    color: rgb(228, 48, 48);
+}
+
+.p19 label:hover {
+    color: rgb(5, 0, 0);
+}
+
+.p20 {
+    color: rgb(228, 48, 48);
+    border: 3px solid rgb(245, 102, 19);
+    background-color: rgb(250, 226, 205);
+    margin: 23px 12px;
+    width: 25%;
+    border-radius: 8px;
+    text-align: left;
+    padding-top: 6px;
+}
+
+.p20 input {
+    color: rgb(228, 48, 48);
+}
+
+.p20 label:hover {
+        color: rgb(5, 0, 0)}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.p22 {
+    background-image: url(https://images.unsplash.com/photo-1517299321609-52687d1bc55a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    font-family: "poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.p22 h1 {
+    font-weight: normal;
+    font-size: 60px;
+    margin: -150px 0 40px;
+}
+
+.countdown {
+    display: flex;
+    transform: scale(2);
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.time h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.5;
+    margin: 0 0 5px;
+}
